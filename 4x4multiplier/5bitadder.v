@@ -4,7 +4,8 @@ module adder(sum,a,b);
 input [5:0] a,b;
 output reg [5:0] sum;
 
-always @ (a,b)
+  always @ (a,b) begin
 sum = a+b;
-
+  end
+  
 endmodule
